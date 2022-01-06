@@ -1,0 +1,33 @@
+﻿  d3d11hook.cpp
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\stdafx.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\d3dhook.h(1): warning C4068: unknown pragma
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): note: while calling the constructor 'Vec3::Vec3(float [])'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\structs.h(13): note: see declaration of 'Vec3::Vec3'
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\d3d11hook.cpp(238): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'const char [39]' to 'LPCWSTR'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\d3d11hook.cpp(238): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  dllmain.cpp
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\stdafx.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\d3dhook.h(1): warning C4068: unknown pragma
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): note: while calling the constructor 'Vec3::Vec3(float [])'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\structs.h(13): note: see declaration of 'Vec3::Vec3'
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(18): error C2664: 'HINTERNET InternetOpenW(LPCWSTR,DWORD,LPCWSTR,LPCWSTR,DWORD)': cannot convert argument 1 from 'const char [13]' to 'LPCWSTR'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(22): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(24): error C2664: 'HINTERNET InternetOpenUrlW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char [28]' to 'LPCWSTR'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(29): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(48): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const LPCSTR' to 'LPCWSTR'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(48): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\dllmain.cpp(48): error C2660: 'ImplHookDX11_Init': function does not take 1 arguments
+  Menu.cpp
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\stdafx.h(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\d3dhook.h(1): warning C4068: unknown pragma
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): warning C4927: illegal conversion; more than one user-defined conversion has been implicitly applied
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(396): note: while calling the constructor 'Vec3::Vec3(float [])'
+  c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\structs.h(13): note: see declaration of 'Vec3::Vec3'
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\menu.cpp(374): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\menu.cpp(401): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\menu.cpp(178): error C4716: 'BotNameChangeCallback': must return a value
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(378): warning C4172: returning address of local variable or temporary: angles
+c:\users\edwin\desktop\ghoststuffsimasce\ghostsazza\engine.h(388): warning C4172: returning address of local variable or temporary: bullet
